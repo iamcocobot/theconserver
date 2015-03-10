@@ -84,8 +84,9 @@ article li {
 nav {
   float: right;
 }
-  #menu {
+  #main-navigation {
     display: block;
+    z-index: 1000;
   }
   .logo {
     background-repeat: no-repeat;
