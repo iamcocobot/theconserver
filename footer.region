@@ -1,5 +1,5 @@
-			<footer class="footer_main">
-					<div class="container">
+		    <div id="page-footer-wrapper">
+		      <div id="page-footer">
 		        {.section website}
 		          {.if socialAccounts}
 		            <div id="sqs-social" data-content-field="connected-accounts">
@@ -9,13 +9,15 @@
 		        {.end}
 		        <squarespace:block-field id="footer-blocks" columns="12" label="Footer Content" />
 		      </div>
-		    </footer><!-- page-footer-wrapper -->
+		    </div><!-- page-footer-wrapper -->
 		  
 
 		  </div>
 		</div> <!-- canvas-wrapper -->
-
+	<footer class="footer_main">
+		<div class="container">
 		{squarespace-footers}
-
+		</div>
+	</footer>
 	</body>
 </html>
