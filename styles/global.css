@@ -110,7 +110,7 @@ nav {
     padding: 0rem 1rem;
     text-transform: uppercase;
   }
-    .main-navigation-item a:hover {
+    .main-navigation-item a:hover, .active-link {
       background-color: #fff;
     }
     #toggle_menu, .main-navigation-item a.home {
