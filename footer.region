@@ -14,10 +14,8 @@
 
 		  </div>
 		</div> <!-- canvas-wrapper -->
-	<footer class="footer_main">
-		<div class="container">
+
 		{squarespace-footers}
-		</div>
-	</footer>
+
 	</body>
 </html>
