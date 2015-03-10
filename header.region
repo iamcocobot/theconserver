@@ -22,7 +22,7 @@
   		</div>
   	</header>
 
-	  <div id="canvas-wrapper">
+	<div class="content">
 	  	<div id="canvas">
 				<div id="page-header-wrapper">
 					<div id="page-header">
