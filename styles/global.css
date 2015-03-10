@@ -84,9 +84,8 @@ article li {
 nav {
   float: right;
 }
-  #main-navigation {
+  #menu {
     display: block;
-    z-index: 1000;
   }
   .logo {
     background-repeat: no-repeat;
@@ -207,6 +206,7 @@ header.header_main {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 .content {
   margin-top: 3rem;
