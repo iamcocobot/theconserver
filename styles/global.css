@@ -80,6 +80,9 @@ article li {
   margin-left: 2rem;
 }
 
+/* Squaresspace Reset */
+.sqs-block { padding: 0;}
+
 /*  Buttons & Nav   ======================================================================== */
 nav {
   float: right;
