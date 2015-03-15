@@ -7,6 +7,32 @@
     {squarespace-headers}
     <squarespace:script src="site.js" />
     <link rel="stylesheet" href="http://basehold.it/24">
+	<script>
+		$(window).bind("load resize",function(e){
+			// Resize images to baseline
+		    $('img').each(function() {
+		        var b = 24,
+		            h = $(this).height(),
+		            x = (b*Math.ceil(h/b));
+		        $(this).parent().css('height',x);
+		    });
+		    if ($(window).width() > 1024) {
+        		$('#menu').css('display','');
+   			}
+		});
+		$(window).bind("load",function(e){
+		    // Show Hide Menu
+			var toggle_element = $('#menu'),
+				toggler = $('#toggle_menu'),
+				animate_time = 200;
+			// Toggle Button
+			toggler.click(function() {
+				toggle_element.slideToggle(animate_time);
+				return false;
+			});
+			$("#page-body-header .summary-content").addClass("center span_9_of_12");
+		});
+	</script>
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.section mainImage} has-page-thumbnail{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
