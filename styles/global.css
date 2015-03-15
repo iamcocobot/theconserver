@@ -7,7 +7,7 @@ html {
 body {
   color: #4e4e56;
 }
-h1,h2,h3,h4,h5,h6, .button, .main-navigation, #page-body-header .summary-title {
+h1,h2,h3,h4,h5,h6, .button, .summary-read-more-link, .main-navigation, #page-body-header .summary-title {
   font-family: GoudyOldStyleT-Bold;
 }
 p, ul, ol, blockquote {
@@ -37,17 +37,17 @@ h5 {
   font-size: .833rem;
   line-height: 1rem;
 }
-.author {
+.summary-meta-data-item {
   font-family: GoudyOldStyleT-Italic;
   margin-bottom: 1rem;
 }
-.summary { 
+.summary-excerpt { 
   margin-bottom: 1rem;
 }
-.featured h1, .featured .author, .featured .summary {
+#page-body-header .summary-title, #page-body-header .summary-meta-data-item, #page-body-header .summary-excerpt {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-.category .summary {
+.category .summary-excerpt {
   font-size: .666em;
 }
 .meta {
@@ -153,7 +153,7 @@ a:hover {
   padding: .5rem;
   text-transform: uppercase;
 }
-.button.white {
+.button.white, .summary-read-more-link {
   background-color: rgb(244, 244, 244);
   background-image: url('/assets/icon_arrow_right.svg');
   background-repeat: no-repeat;
@@ -165,7 +165,7 @@ a:hover {
   padding: 1rem 2.5rem 1rem 1rem;
   text-transform: uppercase;
 }
-  .button.white:hover {
+  .button.white:hover, .summary-read-more-link:hover {
     background-color: rgb(255, 255, 255);
   }
 .full_story {
