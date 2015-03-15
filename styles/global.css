@@ -209,6 +209,7 @@ header.header_main {
   z-index: 1000;
 }
 #page-body-header .summary-block-header {
+  display:none;
 }
 .content {
   margin-top: 3rem;
