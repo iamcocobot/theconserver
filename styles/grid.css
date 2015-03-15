@@ -12,7 +12,7 @@
 	width: 83.06%;
 }
 
-.span_9_of_12 {
+.span_9_of_12, #page-body-header .summary-content {
 	width: 74.6%;
 }
 

@@ -220,6 +220,7 @@ header.header_main {
       display:none;
     }
     #page-body-header .summary-thumbnail {
+      position: relative;
       background: #000;
     }
     #page-body-header .summary-thumbnail img {
@@ -229,7 +230,8 @@ header.header_main {
       position: absolute;
       top: 8rem;
       margin: 0px auto;
-      width: 1200px;
+      left: 0;
+      right: 0;
     }
 
 .content {
