@@ -11,7 +11,7 @@
 	<script>
 	$(window).bind("load",function(e){
 	    $( "#page-body-header .summary-content" ).wrap( "<div class='container'></div>" );
-	    $( "#page-body-header .summary-content" ).addClass( ".span_9_of_12" );
+	    $( "#page-body-header .summary-content" ).addClass( "center span_9_of_12" );
 	});
     </script>
   </head>
