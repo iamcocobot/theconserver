@@ -213,24 +213,24 @@ header.header_main {
     color: rgb(255, 255, 255);
     margin: 0rem 0 1rem 0;
   }
+    #page-body-header h1 a {
+      color: rgb(255, 255, 255);
+    }
     #page-body-header .summary-block-header {
       display:none;
     }
     #page-body-header .summary-thumbnail {
-      background:000;
+      background: #000;
     }
     #page-body-header .summary-thumbnail img {
-      opacity: 70;
+      opacity: .7;
     }
+
 .content {
   margin-top: 3rem;
 }
 .article .content {
   margin-top: 4rem;
-}
-
-.featured h1 a {
-  color: rgb(255, 255, 255);
 }
 .container {
   margin: 0px auto;
