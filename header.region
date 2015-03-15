@@ -6,6 +6,7 @@
 	  {.end}
     {squarespace-headers}
     <squarespace:script src="site.js" />
+    <link rel="stylesheet" href="http://basehold.it/24">
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.section mainImage} has-page-thumbnail{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
