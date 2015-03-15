@@ -7,6 +7,7 @@
     {squarespace-headers}
     <squarespace:script src="site.js" />
     <link rel="stylesheet" href="http://basehold.it/24">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
 		$(window).bind("load resize",function(e){
 			// Resize images to baseline
