@@ -81,7 +81,8 @@ article li {
 }
 
 /* Squaresspace Reset */
-.sqs-block { padding: 0;}
+[class*=sqs-col] .sqs-block { padding: 0;}
+.sqs-layout > .sqs-row { margin: 0;}
 
 /*  Buttons & Nav   ======================================================================== */
 nav {
