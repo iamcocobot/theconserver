@@ -15,7 +15,7 @@ p, ul, ol, blockquote {
   line-height: 1rem;
   margin-bottom: 1rem;
 }
-h1 {
+h1, #page-body-header .summary-title {
   font-size: 3rem;
   line-height: 3rem;
   margin-bottom: 1rem;
@@ -224,6 +224,10 @@ header.header_main {
     }
     #page-body-header .summary-thumbnail img {
       opacity: .7;
+    }
+    #page-body-header .summary-content {
+      position: absolute;
+      top: 8rem;
     }
 
 .content {
