@@ -7,7 +7,7 @@ html {
 body {
   color: #4e4e56;
 }
-h1,h2,h3,h4,h5,h6, .button, .main-navigation {
+h1,h2,h3,h4,h5,h6, .button, .main-navigation, #page-body-header .summary-title {
   font-family: GoudyOldStyleT-Bold;
 }
 p, ul, ol, blockquote {
@@ -213,7 +213,7 @@ header.header_main {
     color: rgb(255, 255, 255);
     margin: 0rem 0 1rem 0;
   }
-    #page-body-header h1 a {
+    #page-body-header h1 .summary-title {
       color: rgb(255, 255, 255);
     }
     #page-body-header .summary-block-header {
@@ -228,6 +228,8 @@ header.header_main {
     #page-body-header .summary-content {
       position: absolute;
       top: 8rem;
+      margin: 0px auto;
+      width: 1200px;
     }
 
 .content {
