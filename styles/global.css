@@ -208,20 +208,27 @@ header.header_main {
   width: 100%;
   z-index: 1000;
 }
-#page-body-header .summary-block-header {
-  display:none;
-}
+  /* Homepage main header */
+  #page-body-header {
+    color: rgb(255, 255, 255);
+    margin: 0rem 0 1rem 0;
+  }
+    #page-body-header .summary-block-header {
+      display:none;
+    }
+    #page-body-header .summary-thumbnail {
+      background:000;
+    }
+    #page-body-header .summary-thumbnail img {
+      opacity: 70;
+    }
 .content {
   margin-top: 3rem;
 }
 .article .content {
   margin-top: 4rem;
 }
-.featured {
-  background: rgba(0, 0, 0, 0.5);
-  color: rgb(255, 255, 255);
-  margin: 0rem 0 1rem 0;
-}
+
 .featured h1 a {
   color: rgb(255, 255, 255);
 }
