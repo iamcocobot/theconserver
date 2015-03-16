@@ -10,7 +10,7 @@ body {
 h1,h2,h3,h4,h5,h6, .button, .summary-read-more-link, .main-navigation, #page-body-header .summary-title {
   font-family: GoudyOldStyleT-Bold;
 }
-p, ul, ol, blockquote, .sqs-block-summary-v2 .summary-excerpt p, .sqs-block-summary-v2 .summary-excerpt ul, .sqs-block-summary-v2 .summary-excerpt li {
+p, ul, ol, blockquote, .summary-meta-data-item, .sqs-block-summary-v2 .summary-excerpt p, .sqs-block-summary-v2 .summary-excerpt ul, .sqs-block-summary-v2 .summary-excerpt li {
   font-size: .833rem;
   font-weight: lighter;
   line-height: 1rem;
@@ -38,7 +38,7 @@ h5 {
   font-size: .833rem;
   line-height: 1rem;
 }
-.sqs-block-summary-v2 .summary-metadata-item {
+.summary-meta-data-item  {
   font-family: GoudyOldStyleT-Italic;
   margin-bottom: 1rem;
 }
