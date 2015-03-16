@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6, .button, .summary-read-more-link, .main-navigation, #page-bod
 }
 p, ul, ol, blockquote, .sqs-block-summary-v2 .summary-excerpt p, .sqs-block-summary-v2 .summary-excerpt ul, .sqs-block-summary-v2 .summary-excerpt li {
   font-size: .833rem;
+  font-weight: lighter;
   line-height: 1rem;
   margin-bottom: 1rem;
 }
