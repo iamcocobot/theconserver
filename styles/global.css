@@ -84,6 +84,7 @@ article li {
 /* Squaresspace Reset */
 [class*=sqs-col] .sqs-block { padding: 0;}
 .sqs-layout > .sqs-row { margin: 0;}
+.sqs-block-summary-v2 .summary-item-record-type-text .summary-read-more-link { display: inline-block; }
 
 /*  Buttons & Nav   ======================================================================== */
 nav {
