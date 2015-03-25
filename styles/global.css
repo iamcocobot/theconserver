@@ -239,6 +239,9 @@ header.header_main {
       left: 0;
       right: 0;
     }
+    #page-body-header .sqs-gallery-design-carousel .sqs-gallery-container {
+      height: 26rem;
+    }
 
 .content {
   margin-top: 3rem;
