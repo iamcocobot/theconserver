@@ -240,7 +240,7 @@ header.header_main {
       right: 0;
     }
     #page-body-header .sqs-gallery-design-carousel .sqs-gallery-container {
-      height: 26rem;
+      max-height: 26rem;
     }
 
 .content {
